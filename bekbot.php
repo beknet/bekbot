@@ -11,7 +11,7 @@ Author URI: https://bekker.co.il
 Copyright 2014-2018 Bekker Y & Co. (email: dev@bekker.co.il)
 */
 
-define( 'BEKBOT_VERSION', '1.0.0' );
+define( 'BEKBOT_VERSION', '1.0.1' );
 define( 'BEKBOT_URL', 'https://api.bekbot.com' );
 define( 'BEKBOT_MINIMUM_WP_VERSION', '4.8' );
 
