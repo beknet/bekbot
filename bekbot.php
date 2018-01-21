@@ -3,7 +3,7 @@
 Plugin Name: Bekbot
 Plugin URI: https://bekbot.com/
 Description: Плагин Bekbot для автоматического кросспостинга статей и других типов записей с Вашего сайта в соц.сети и мессенджеры.
-Version: 1.0.2
+Version: 1.0.1
 Author: Bekker Y & Co.
 VK group: 154076207
 Chanel Telegram: @bekkercoil
