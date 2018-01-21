@@ -129,11 +129,11 @@ require_once BEKBOT_PLUGIN_MODULES_DIR.'bekbotfun.ini.php';
 ============================================================*/
 if( !class_exists( 'bekbotUpdater' ) ){
   include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
+
+  $updater = new bekbotUpdater( __FILE__ );
+  $updater->set_username( 'beknet' );
+  $updater->set_repository( 'bekbot' );
+
+  // $updater->authorize( 'ed818e06557812cdc507e7f42b24f1a8c1bb13ca' ); // Your auth code goes here for private repos
+  $updater->initialize();
 }
-
-$updater = new bekbotUpdater( __FILE__ );
-$updater->set_username( 'beknet' );
-$updater->set_repository( 'bekbot' );
-
-// $updater->authorize( 'ed818e06557812cdc507e7f42b24f1a8c1bb13ca' ); // Your auth code goes here for private repos
-$updater->initialize();
