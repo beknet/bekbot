@@ -17,7 +17,7 @@ function connData($data){
       CURLOPT_POSTFIELDS     => $data
   );
 
-  $ch      = curl_init( BEKBOT_URL.'/api/api.ini.php' );
+  $ch      = curl_init( BEKBOT_URL.'/v1.0.0/api.ini.php' );
   curl_setopt_array( $ch, $options );
   $content = curl_exec( $ch );
   $err     = curl_errno( $ch );
